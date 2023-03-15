@@ -20,5 +20,4 @@ def convert(input_string):
                 cnt_upper += 1
         else:
             continue
-    print(cnt_lower, cnt_upper)
     return input_string.lower() if cnt_lower >= cnt_upper else input_string.upper()
