@@ -22,6 +22,3 @@ def convert(input_string):
             continue
     print(cnt_lower, cnt_upper)
     return input_string.lower() if cnt_lower >= cnt_upper else input_string.upper()
-
-
-print(convert('pyTHON'))
