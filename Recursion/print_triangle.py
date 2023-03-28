@@ -5,14 +5,9 @@
 
 
 def triangle(height):
-    n = height
-
-    def req(num):
-        if num >= 1:
-            print('*' * num)
-            req(num - 1)
-
-    req(n)
+    if height >= 1:
+        print('*' * height)
+        triangle(height - 1)
 
 
 h = int(input())
