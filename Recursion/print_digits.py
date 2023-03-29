@@ -12,7 +12,6 @@ def print_digits(number):
         if len(num) > 0:
             i = len(num) - 1
             print(num.pop(i))
-            i -= 1
             req(num)
 
     req(str_number)
